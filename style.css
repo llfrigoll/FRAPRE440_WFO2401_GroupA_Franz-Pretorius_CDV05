@@ -70,6 +70,20 @@ strong { font-weight: var(--fw-bold) }
 
 /* Buttons */
 
+.back-btn {
+    position: absolute;
+    background-color: var(--clr-dark);
+    border: none;
+    color: var(--clr-accent);
+    font-weight: bold;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.back-btn:hover {
+    cursor: pointer;
+}
+
 .btn {
     display: inline-block;
     padding: .5em 2.5em;
@@ -386,6 +400,7 @@ header {
 .portfolio__item {
     background: var(--clr-dark);
     overflow: hidden;
+    padding: 10px 10px;
 }
 
 .portfolio__img {
