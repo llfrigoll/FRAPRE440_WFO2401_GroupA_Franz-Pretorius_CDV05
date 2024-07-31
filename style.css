@@ -420,6 +420,13 @@ header {
     opacity: .5;
 }
 
+.project-names {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
 
 /* footer */
 
@@ -484,4 +491,15 @@ header {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 40px;
+}
+.portfolio-item-individual a {
+    font-weight: bold;
+}
+
+.portfolio-item-individual a:visited {
+    color: var(--clr-light);
+}
+
+.portfolio-item-individual a:hover {
+    color: var(--clr-accent);
 }
