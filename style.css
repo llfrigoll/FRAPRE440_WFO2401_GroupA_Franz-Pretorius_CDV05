@@ -400,7 +400,7 @@ header {
 .portfolio__item {
     background: var(--clr-dark);
     overflow: hidden;
-    padding: 10px 10px;
+    margin: 10px 10px;
 }
 
 .portfolio__img {
